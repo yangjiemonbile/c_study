@@ -34,6 +34,6 @@ set(CMAKE_CXX_FLAGS_RELEASE "-sO2 -finline-limit=1000 -DNDEBUG")
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
-option(CMAKE_VERBOSE_MAKEFILE "show gcc build commend" ON)
+set(CMAKE_VERBOSE_MAKEFILE ON)
 
 add_subdirectory(hello)

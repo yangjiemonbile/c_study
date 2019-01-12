@@ -10,7 +10,7 @@ include_directories(${PROJECT_SOURCE_DIR})
 install(DIRECTORY include/ DESTINATION header
 PATTERN "*.h")
 
-option(CMAKE_VERBOSE_MAKEFILE "show gcc build commend" ON)
+set(CMAKE_VERBOSE_MAKEFILE ON)
 
 add_subdirectory(log)
 add_subdirectory(signaldemo)

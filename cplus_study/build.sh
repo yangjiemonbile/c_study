@@ -6,7 +6,7 @@ SOURCE_DIR=`pwd`
 BUILD_DIR=${BUILD_DIR:-./build}
 BUILD_TYPE=$1
 BUILD_TYPE=${BUILD_TYPE:-debug}
-INSTALL_DIR=${INSTALL_DIR:-./${BUILD_TYPE}-install-cpp}
+INSTALL_DIR=${INSTALL_DIR:-./${BUILD_TYPE}-install}
 CXX=${CXX:-g++}
 
 mkdir -p $BUILD_DIR/$BUILD_TYPE-cpp \
