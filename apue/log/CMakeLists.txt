@@ -7,5 +7,4 @@ add_library(log SHARED
 #target_include_directories(log PRIVATE ${PROJECT_SOURCE_DIR}/include)
 target_link_libraries(log)
 
-install(TARGETS log 
-LIBRARY DESTINATION lib)
+install(TARGETS log LIBRARY DESTINATION lib)

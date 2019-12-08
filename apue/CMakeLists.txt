@@ -7,8 +7,7 @@ SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 include_directories(${PROJECT_SOURCE_DIR})
 
-install(DIRECTORY include/ DESTINATION header
-PATTERN "*.h")
+#install(DIRECTORY include/ DESTINATION header PATTERN "*.h")
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
