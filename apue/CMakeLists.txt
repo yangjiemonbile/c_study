@@ -12,6 +12,6 @@ include_directories(${PROJECT_SOURCE_DIR})
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 add_subdirectory(log)
-add_subdirectory(signaldemo)
+add_subdirectory(src)
 
 #add_subdirectory(test)

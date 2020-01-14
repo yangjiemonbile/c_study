@@ -1,4 +1,5 @@
 /.vscode/
+/apue/.vscode/
 /apue/build
 /apue/bin
 /apue/lib
