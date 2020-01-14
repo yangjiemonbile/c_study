@@ -36,5 +36,5 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
-add_subdirectory(hello)
+add_subdirectory(src)
 
