@@ -1,4 +1,4 @@
-#include <include/apue.h>
+#include <apue.h>
 #include <errno.h>
 #include <stdarg.h>
 #include <syslog.h>
